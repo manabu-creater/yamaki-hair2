@@ -1,0 +1,384 @@
+/* リセットCSS */
+body {
+  font-family: serif;
+  font-size: 14px;
+  color: white;
+  margin: 0 auto;
+  background-color: black;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  padding: 0 0;
+  margin: 0;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+}
+
+/* header */
+header {
+  background-color: black;
+  display: flex;
+
+}
+
+.header-left {
+  width: 60%;
+  margin-left: 30%;
+}
+
+.header-right {
+  color: white;
+  padding-top: 1%;
+  padding-right: 3%;
+  width: 40%;
+}
+
+.header-right a {
+  text-align: right;
+  display: block;
+  font-size: 95%;
+  flex-wrap: nowrap;
+}
+
+.header-right h4 {
+  font-size: 180%;
+  text-align: right;
+}
+
+.logo {
+  width: 180px;
+  height: 81px;
+  margin: 7% auto;
+  display: block;
+}
+
+/* ここからメイン */
+/* .main {
+  width: 920px;
+  margin: 20px auto;
+} */
+
+.top-img {
+  width: 920px;
+  margin: 20px auto;
+  display: block;
+}
+
+.contents {
+  width: 1100px;
+  margin: 20px auto;
+}
+
+/* .heading h3 {
+  font-size: 125%;
+  color: white;
+  background-color: black;
+  width: 42.5%;
+  padding-left: 2%;
+  white-space: nowrap;
+  margin-top: 40px;
+} */
+
+.ex-title {
+  width: 40%;
+}
+
+.heading h4 {
+  margin: 1% 0;
+  font-size: 130%;
+}
+
+.fa-check-square {
+  margin-top: 0.2%;
+  margin-right: 1%;
+}
+
+.explain {
+  display: flex;
+}
+
+.content h3 {
+  margin-top: 2%;
+  border: 2px solid  black;
+  padding: 1% 3%;
+  font-size: 100%;
+}
+
+.content-img {
+  width: 35%;
+  height: 30%;
+}
+
+.title1 span, .title2 span, .title3 span {
+  color: red;
+  font-weight: bold;
+}
+
+.title1 p, .title2 p, .title3 p { 
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+.title1 , .title2 , .title3  { 
+  margin-top: 5%;
+}
+
+.title-img {
+  width: 50%;
+  margin-bottom: 2%;
+}
+
+.title-img2 {
+  width: 50%;
+  margin-bottom: 2%;
+}
+
+.procedure {
+  display: flex;
+  font-size: 140%;
+}
+
+.supplement {
+  font-size: 80%;
+  flex-wrap: nowrap;
+}
+
+.change {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  font-size: 200%;
+}
+
+.ba-img {
+  width: 20%;
+  margin-top: 5%;
+  margin-bottom: 30%;
+}
+
+.coupon {
+  text-align: center;
+}
+
+.coupons h1 {
+  text-align: left;
+}
+
+.coupon-img {
+  width: 45%;
+  margin-bottom: 3%;
+}
+
+.coupon-price {
+  width: 60%;
+}
+
+.reserve {
+  margin: 10% 0;
+}
+
+.reserve-img {
+  width: 20%;
+  margin-bottom: 3%;
+}
+
+.reserve h1 {
+  color: white;
+  background-color: black;
+  width: 22%;
+  height: 5%;
+  padding: 2% 3%;
+  font-size: 155%;
+  display: block;
+}
+
+.line {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 2%;
+}
+
+.line a {
+  margin-right: 3%;
+}
+
+.fa-line {
+  color: #00c300;
+  background-color: white;
+}
+
+.fa-instagram {/*アイコン*/
+  color: #FFF;/*白に*/
+  position: relative;/*z-indexを使うため*/
+  z-index: 2;/*グラデーションより前に*/
+  background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+  border-radius: 10px;
+  left: 0.5px;/*左右にずらす*/
+  padding: 0 5px;
+}
+
+.reserve p {
+  font-size: 120%;
+  /* border-bottom: double 1px black; */
+  text-decoration:underline solid black;
+}
+
+/* ここからstory */
+/* .stories {
+  margin: 0 auto;
+  width: 680px;
+}
+
+.story {
+  display: flex;
+ 
+  flex-wrap: wrap;
+}
+
+.story-title {
+  background-color: black;
+  color: white;
+  padding: 0.5%;
+  margin-top: 5%;
+  width: 350px;
+}
+
+
+
+.boxes {
+  border: 1px solid lightgray;
+  padding: 1% 1%;
+  width: 300px;
+  margin: 1% 1%;
+}
+
+.salon {
+  width: 275px;
+  height: 190px;
+  margin: 0 auto;
+  display: block;
+}
+
+.mb10 {
+  width: 275px;
+  margin: 0 auto;
+}
+
+.mb10 span {
+  border-bottom: 1px solid black;
+}
+
+.maintitle {
+  font-family: georgia,serif;
+  font-size: 120%;
+  
+}
+
+.subtitle {
+  font-size: 60%;
+  text-align: right;
+  padding-bottom: 3px;
+}
+
+.boxes p {
+  width: 275px;
+  font-size: 80%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 6px auto;
+} */
+
+
+
+
+/* レスポンシブ携帯 */
+@media screen and (max-width: 599px) {
+  /* タブレット用レイアウト 600px以上の範囲に収めるデザインはこの中に記述 */
+  header {
+    width: 750px;
+  }
+
+  .header-right h4 {
+    font-size: 110%;
+  }
+
+  .header-right a {
+    font-size: 70%;
+  }
+
+  .top-img {
+    width: 500px;
+    margin: 20px auto;
+  }
+
+  .reserve h1 {
+    width: 30%;
+  }
+
+  .content, .titles, .change, .coupons, .reserve {
+    margin: 20px 20px;
+    width: 100%;
+  }
+
+  .content-img {
+    margin-top: 2%;
+  }
+
+  .title p {
+    flex-wrap: wrap;
+  }
+
+  .procedure {
+    font-size: 120%;
+    width: 100%;
+  }
+}
+
+ /* i pad  */
+@media screen and (max-width: 1000px) {
+  /* header {
+    width: 920px;
+  } */
+
+  .header-right h4 {
+    font-size: 130%;
+  }
+
+  .header-right a {
+    font-size: 75%;
+  }
+
+  .top-img {
+    width: 700px;
+    margin: 20px auto;
+  }
+
+
+  .contents {
+    width: 850px;
+    margin: 20px auto;
+  }
+
+  .content-img {
+    margin-top: 2%;
+  }
+
+  .title p {
+    flex-wrap: wrap;
+  }
+
+  .procedure {
+    font-size: 120%;
+  }
+  
+  .reserve {
+    margin: 15% 0;
+  }
+
+  .reserve h1 {
+    width: 30%;
+  }
+
+}
